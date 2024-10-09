@@ -1,0 +1,45 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+    <meta charset="utf-8" I> 
+    <title>CSS-Grids</title> 
+<style>
+* { font-family:Verdana, Arial, sans-serif;) 
+
+.iteml { grid-area: header; ) 
+.item2 { grid-area: menu; ) 
+.item3 { grid-area: main; ) 
+.item4 { grid-area: right; 
+.items { grid-area: footer; ) 
+
+.grid-container{
+display: grid; 
+grid-template-areas: 
+'header header header header header header' 
+/* 'menu header header header header header' */ 
+'menu main main main right right' 
+'menu footer footer footer footer footer'; 
+grid-gap: 0.8em; 
+background-color: #bfc9b3; 
+padding:0.8em; 
+    }
+.grid-container > div{
+    background-color: rgba(224, 229, 202, 0.8); 
+    text-align: center; 
+    padding: 1.5em 0; 
+    font-size: 2em;
+    }
+</style>
+</head> 
+<body> 
+<h1>CSS Grids Layout</h1> 
+<p>This grid layout contains six columns and three rows. It is created with CSS Grid elements</p> 
+<div class="grid-container"> 
+    <div class="item1">Header</div>
+    <div class="item2">Menu</div> 
+    <div class="item3">Main</div> 
+    <div class="item4">Right</div> 
+    <div class="item5">Footer</div> 
+</div> <I-- end grid container div-->
+</body> 
+</html> 

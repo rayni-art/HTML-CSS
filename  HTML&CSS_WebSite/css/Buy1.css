@@ -1,0 +1,39 @@
+*{
+ font-family: Arial, Verdana, sans-serif;
+ }
+ body{
+  background-color: #FFDDD2;
+ }
+ h1{
+  font-family: "Times", serif;
+ }
+h2{
+    
+ color:#66194d;
+ font-size:125%;
+ }
+ i{
+  color:blueviolet;
+  }
+
+  p b{
+  color:red!important;
+  }
+
+  b{
+  color:#d65cad;
+  }
+  # intro{
+      font-size: 100%;
+      color:antiquewhite;
+    }
+   p{
+      font-size: 95%;
+    }
+   .footerStyle{
+      font-family: Times, serif;
+       color:lightcyan;
+       font-size: :75%
+    }
+  
+  

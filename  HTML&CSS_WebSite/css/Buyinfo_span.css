@@ -1,0 +1,27 @@
+*{
+ font-family: Arial, Verdana, sans-serif;
+ }
+ 
+ body {
+  background-color: #FFDDD2;
+ }
+ 
+
+ h1 {
+  background-color:#EDF6F9;
+  }
+ p {
+  font-size:130%;
+}
+ 
+ h1,p {
+  color:#006D77;
+  }
+
+  h2{
+  background-color: #E29578;
+  }
+  Awards{
+     color:#918d1a;
+     font-size:150%;
+   }
